@@ -5,7 +5,7 @@
   "dependencies": {
     "coffee-script": "",
     "docopt": "",
-    "colors": "",
+    "wrench": "",
     "cryptojs": ""
   },
   "engine": {
@@ -13,5 +13,8 @@
   },
   "scripts": {
     "test": "make test"
+  },
+  "bin": {
+    "token": "./bin/token"
   }
 }
