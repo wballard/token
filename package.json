@@ -1,0 +1,17 @@
+{
+  "name": "token",
+  "version": "0.0.1",
+  "description": "Command line for associating data with cryptographic tokens",
+  "dependencies": {
+    "coffee-script": "",
+    "docopt": "",
+    "colors": "",
+    "cryptojs": ""
+  },
+  "engine": {
+    "node": ">=0.8.11"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}

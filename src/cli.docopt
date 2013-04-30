@@ -1,0 +1,21 @@
+Token, command line for associating data with cryptographic tokens
+
+Usage:
+  token [options] init
+  token [options] data <data_name>
+  token [options] create <data_name>
+  token [options] decode <token>
+
+Options:
+  --version           Print the current version
+  --help              Tells us all about it
+  --directory=<dir>   Use this directory, default is .
+  --debug             Print extra info to help debug
+
+The available commands are:
+  init        Set up a new root directory
+  data        Create a new empty named data and set up a pipe to receive
+              input
+  create      Create a cryptographic token associated with named named
+              data
+  decode      Get the data associated with a specific token
