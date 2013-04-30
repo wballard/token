@@ -71,8 +71,7 @@ The various sub commands are here.
                     process.exit 1
             process.stdout.write data
 
-
-Main entry poing, handing off to the sub commands
+Main entry point, handing off to the sub commands
 
     cli.options.init and init cli.options
     cli.options.data and data cli.options
