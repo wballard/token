@@ -55,7 +55,7 @@ The various sub commands are here.
                 console.error err
             token = crypto.Crypto.SHA256 "#{data}#{Date.now()}"
             tokenpath = path.join options.tokenpath, token
-            fs.link datapath, tokenpath, (err) ->
+            fs.symlink datapath, tokenpath, (err) ->
                 if err
                     console.log err
                 process.stdout.write token
